@@ -1,0 +1,12 @@
+name = "beachffswlcedit"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# Đặt lịch Cron trigger mồi 1 phút/lần
+[triggers]
+crons = ["* * * * *"]
+
+# Binding KV Database
+[[kv_namespaces]]
+binding = "ITEMS_KV"
+id = "<ID_CUA_KV_NAMESPACE_TREN_CLOUDFLARE>"
