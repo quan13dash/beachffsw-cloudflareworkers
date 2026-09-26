@@ -8,5 +8,5 @@ crons = ["* * * * *"]
 
 # Binding KV Database
 [[kv_namespaces]]
-binding = "ITEMS_KV"
-id = "<ID_CUA_KV_NAMESPACE_TREN_CLOUDFLARE>"
+binding = "beachffswlcedit"
+id = "1b2ec2a2a03b412aa8bd3f7392013252"
