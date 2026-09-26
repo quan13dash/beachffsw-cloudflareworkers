@@ -8,7 +8,7 @@ crons = ["* * * * *"]
 
 # Binding KV Database
 [[kv_namespaces]]
-binding = "beachffswlcedit"
+binding = "ITEMS_KV"
 id = "1b2ec2a2a03b412aa8bd3f7392013252"
 
 [observability.logs]
