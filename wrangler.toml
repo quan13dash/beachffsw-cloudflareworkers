@@ -1,23 +1,7 @@
-name = "beachffswlcedit"
+name = "worker-upstash"
 main = "worker.js"
-compatibility_date = "2026-05-05"
+compatibility_date = "2026-09-09"
 
-# Đặt lịch Cron trigger mồi 1 phút/lần
-[triggers]
-crons = ["* * * * *"]
-
-# Binding KV Database
-[[kv_namespaces]]
-binding = "ITEMS_KV"
-id = "1b2ec2a2a03b412aa8bd3f7392013252"
-
-[observability.logs]
-enabled = true
-head_sampling_rate = 1
-invocation_logs = true
-persist = true
-
-[observability.traces]
-enabled = false
-head_sampling_rate = 1
-persist = true
+[vars]
+UPSTASH_REDIS_REST_URL="https://related-hawk-231246.upstash.io"
+UPSTASH_REDIS_REST_TOKEN="gQAAAAAAA4dOAAIgcDJlNjYwZGEyMzMyYmI0Yjg4OWY1NmU5Y2Y5MmE5ZjdkOA"
