@@ -1,0 +1,8 @@
+{
+  "name": "worker-upstash",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-09",
+  "dependencies": {
+    "@upstash/redis": "^1.28.4"
+  }
+}
